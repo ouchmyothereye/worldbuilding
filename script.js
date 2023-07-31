@@ -7,6 +7,8 @@ window.onload = function() {
         .then(json => {
             data = json;
         });
+
+    document.getElementById('generateNation').addEventListener('click', generateNation);
 }
 
 // Generate a random nation
